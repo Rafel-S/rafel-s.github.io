@@ -1,0 +1,306 @@
+* {
+  font-family: arial;
+}
+body {
+  height: 3050px;
+  width: 100%;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+div#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background-color: white;
+}
+nav#header {
+  height: 50px;
+  width: inherit;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(32,31,57,1) 2%, rgba(101,104,105,1) 95%);
+  position: fixed;
+  z-index: 200;
+}
+ul#navigation-bar {
+  height: 40px;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+ul li.navigation-buttons {
+  display: inline-block;
+  height: 30px;
+  width: 130px;
+  padding: 3px 20px;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 8px 5px 0 5px;
+  transition-duration: 0.7s;
+}
+ul li.navigation-buttons:hover {
+  height: 30px;
+  width: 130px;
+  margin: 8px 5px 0 5px;
+  background-color: white;
+  border-radius: 50px;
+}
+ul#navigation-bar a {
+  color: white;
+  text-decoration: none;
+}
+ul#navigation-bar a:hover {
+  color: black;
+}
+section#description {
+  height: 960px;
+  width: 960px;
+  padding: 60px 20px 0 20px;
+}
+section#description h1 {
+  font-size: 48px;
+  height: 30px;
+  margin: 15px 0 0 15px;
+}
+section#description i {
+  font-size: 18px;
+  display: block;
+  margin: 15px 0 0 25px;
+}
+section#description img {
+  height: 200px;
+  width: 350px;
+  margin: 100px 0 0 25px;
+}
+section#description p:nth-of-type(1) {
+  font-size: 20px;
+  height: 200px;
+  width: 450px;
+  margin: 100px 25px 0 15px;
+  float: right;
+  padding: 10px;
+  border-width: 1px 0;
+  border-style: outset;
+  border-color: gray;
+  text-align: center;
+  display: inline-block;
+}
+section#description p:nth-of-type(2) {
+  font-size: 20px;
+  height: 140px;
+  width: 390px;
+  margin: 140px 0 0 15px;
+  padding: 10px;
+  border-width: 1px 0;
+  border-style: outset;
+  border-color: gray;
+  text-align: center;
+  display: inline-block;
+}
+section#description div {
+  height: 200px;
+  width: 350px;
+  margin: 120px 15px 0 0;
+}
+section#description div#language-experience {
+  width: 400px;
+  float: right;
+}
+section#description div#language-experience i {
+  display: inline;
+  font-size: 64px;
+  margin: 0;
+}
+section#description div.icon-properties {
+  display: inline-block;
+  height: 64px;
+  width: 48px;
+  margin: 10px 30px;
+}
+.fa-java {
+  color: blue;
+}
+.fa-python {
+  color: gray;
+}
+.fa-html5 {
+  color: orange;
+}
+.fa-css3 {
+  color: blue;
+}
+.fa-js-square {
+  color: khaki;
+}
+.fa-database {
+  color: purple;
+}
+section#experience {
+  height: 960px;
+  width: 960px;
+  padding: 60px 20px 0 20px;
+}
+section#experience ul {
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+}
+section#experience > h2{
+  height: 60px;
+  text-align: center;
+  background-color: #7E85D9;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.12), 0 2px 5px rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  padding: 10px 0;
+}
+section#experience > div {
+  width: 800px;
+  height: 500px;
+  padding: 50px 25px;
+  margin: 50px 0 0 50px;
+}
+section#experience div#examples {
+  height: 150px;
+  width: 800px;
+  margin: 50px 0 0 50px;
+  padding: 0 20px;
+  border-style: solid;
+  border-width: 1px;
+}
+section#experience div#examples img {
+  height: 50px;
+  width: 50px;
+  margin: 10px 20px;
+  cursor: pointer;
+  border-style: dashed;
+  border-width: 1px;
+}
+section#experience div#examples img:hover {
+  opacity: 0.8;
+}
+section#experience .card {
+  height: 200px;
+  width: 300px;
+  float: right;
+  margin: 25px 25px 0 0;
+}
+section#experience #popout {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 201;
+  background-color: black;
+  background-color: rgba(0,0,0,0.95);
+  margin: 0;
+  padding: 0;
+}
+section#experience div#popout span#close-popout{
+  height: 3vw;
+  width: 3vw;
+  color: red;
+  display: block;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  margin: 2vw 2vw 0 0;
+  cursor: pointer;
+  font-size: 2vw;
+  text-align: center;
+  background-color: white;
+  border-radius: 60%;
+}
+img#variable-image {
+  height: 80%;
+  width: 40%;
+  margin: 5% auto 0 auto;
+  display: block;
+}
+.popout-image {
+  animation-name: fade;
+  animation-duration: .5s;
+}
+section#projects {
+  height: 960px;
+  width: 960px;
+  padding: 60px 20px 0 20px;
+}
+section#projects > h2 {
+  height: 60px;
+  text-align: center;
+  background-color: #7E85D9;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.12), 0 2px 5px rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  padding: 10px 0;
+}
+section#projects > div {
+  width: 450px;
+  height: 150px;
+  color: white;
+  margin: 50px 0 0 50px;
+  padding: 10px 5px;
+  border-radius: 30px;
+}
+section#projects > ul {
+  width: 850px;
+  margin: 25px auto;
+}
+section#projects > ul > li {
+  display: inline;
+  width: 260px;
+}
+footer {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+footer > div#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+footer div#footer {
+  height: 150px;
+  padding: 0 20px 0 20px;
+}
+footer section#contact-information {
+  font-size: 28px;
+  padding: 25px 0;
+}
+footer section#contact-information a {
+  font-size: 28px;
+  padding: 0 40px 0 0;
+}
+footer section#contact-information i {
+  font-size: 28px;
+  padding: 0 0 0 75px;
+}
+footer span {
+  margin: 25px 0 25px 0;
+}
+.fa-envelope-square {
+  color: red;
+}
+.fa-github {
+  color: purple;
+}
+.fa-twitter {
+  color: DeepSkyBlue;
+}
+.hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+  transform: translateY(15vh);
+}
+.show {
+  visibility: visible;
+  opacity: 1;
+  transform: none;
+}
