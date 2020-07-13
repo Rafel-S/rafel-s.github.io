@@ -10,9 +10,3 @@ function currentImage(source) {
 closeButton.onclick = function() {
   popout.style.display = "none";
 }
-
-window.onscroll = function() {
-  if (document.body.scrollTop > 50) {
-    header.className =
-  }
-}
