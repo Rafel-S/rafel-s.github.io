@@ -2,7 +2,7 @@ Used HTML to structure the page and fill it with elements. Some elements have ID
 
 CSS was used to change properties of elements (color, font, padding, margins, background, etc..) and add animations. Global, Class, Element, Child, and other selectors were used to target the elements.
 
-JavaScript was used in three areas: the experience section, the projects section, and the scroll animation. The experience section uses a modal box to display images. A hidden <div> element is created in HTML/CSS and its properties are changed on clicking of the images. This creates a modal effect that allows used to only focus on image.
+JavaScript was used in two areas: the experience section and the projects section. The experience section uses a modal box to display images. A hidden <div> element is created in HTML/CSS and its properties are changed on clicking of the images. This creates a modal effect that allows used to only focus on image. The project section uses a carousel from Bootstrap.
 
 
-Technologies used: html, css, javascript, fontawesome, bootstrap, gradient generators
+Technologies used: HTML, CSS, JavaScript, Font Awesome, Bootstrap, and gradient generators.

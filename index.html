@@ -5,11 +5,11 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/stylesheet.css" type="text/css" rel="stylesheet"/>
-    <title>Rafel Salem</title>
+    <title>Personal Portfolio</title>
   </head>
-  <body>
-    <div id="wrapper">
-      <nav id="header" class="fade-in">
+  <body class="fade-in">
+    <div class="wrapper">
+      <nav>
         <ul id="navigation-bar">
           <li class="navigation-buttons"><a href="#description">Background</a></li>
           <li class="navigation-buttons"><a href="#experience">Experience</a></li>
@@ -17,38 +17,40 @@
           <li class="navigation-buttons"><a href="#contact-information">Contacts</a></li>
         </ul>
       </nav>
-      <section id="description" class="fade-in">
-          <h1>Rafel Salem</h1><br />
+      <section id="description">
+        <header>
+          <h1>Rafel Salem</h1><br>
           <i>Software Developer</i>
-          <img id="laptop" src="img/kari-shea-1SAnrIxw5OY-unsplash.jpg" title="Photo by Kari Shea"/>
-          <p>Aspiring to become a full stack developer. Constantly improving by learning new languages and frameworks.
-            Applying the skillset I learned through my degree to create programs and websites.
-            Always open to suggestions and feedback on improvement!</p>
-          <p>Currently looking for jobs in the software development industry. Languages I know are: Java, Python, HTML, CSS, JavacSript, and SQL.</p>
-          <div id="language-experience">
-            <div class="icon-properties">
-              <i class="fab fa-java"></i>
-            </div>
-            <div class="icon-properties">
-              <i class="fab fa-python"></i>
-            </div>
-            <div class="icon-properties">
-              <i class="fab fa-html5"></i>
-            </div>
-            <div class="icon-properties">
-              <i class="fab fa-css3"></i>
-            </div>
-            <div class="icon-properties">
-              <i class="fab fa-js-square"></i>
-            </div>
-            <div class="icon-properties">
-              <i class="fas fa-database"></i>
-            </div>
+        </header>
+        <img id="laptop" alt="Photo by Kari Shea" src="img/kari-shea-1sanrixw5oy-unsplash.jpg" title="Photo by Kari Shea" style="width:350px;height:200px;"/>
+        <p>Aspiring to become a full stack developer. Sonstantly improving by learning new languages and frameworks.
+          Applying the skillset I learned through my degree to create programs and websites.
+          Always open to suggestions and feedback on improvement!</p>
+        <p>Currently looking for jobs in the software development industry. Languages I know are: Java, Python, HTML, CSS, JavaScript, and SQL.</p>
+        <div id="language-experience">
+          <div class="icon-properties">
+            <i class="fab fa-java"></i>
           </div>
+          <div class="icon-properties">
+            <i class="fab fa-python"></i>
+          </div>
+          <div class="icon-properties">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="icon-properties">
+            <i class="fab fa-css3"></i>
+          </div>
+          <div class="icon-properties">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="icon-properties">
+            <i class="fas fa-database"></i>
+          </div>
+        </div>
       </section>
-      <section id="experience"  class="fade-in">
+      <section id="experience">
         <h2>Experience</h2>
-        <div>
+        <div id="neiu">
           <h3>Northeastern Illinois University</h3><br>
           <p><i>CS Peer Leader<br></i>
           Chicago, Illinois<br></p>
@@ -59,32 +61,32 @@
                 learned concepts and I/O of text files.</li>
           </ul>
           <div class="card" style="width: 18rem;">
-            <img src="img/NEIU-El-Centro-Campus.jpg" title="Northeastern Illinois University" />
+            <img src="img/neiu-el-centro-campus.jpg" title="northeastern illinois university" style="width:300px;height:250px;"/>
           </div>
         </div>
         <div id="examples">
-          <img onclick="currentImage(this.src)" src="img/intro_problems.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/statements_problems.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/methods.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/statements_2.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/statements_3.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/loops.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/loops_2.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/arrays.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/arrays_2.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/nested_loops.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/2d_arrays.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/final_project_1.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/final_project_2.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/final_project_3.PNG"></img>
-          <img onclick="currentImage(this.src)" src="img/final_project_4.PNG"></img>
+          <img alt="Beginner Logic Practice" onclick="currentImage(this.src)" src="img/intro_problems.png" style="width:50px;height:50px;">
+          <img alt="Conditional Statements and Math Practice" onclick="currentImage(this.src)" src="img/statements_problems.png" style="width:50px;height:50px;">
+          <img alt="Conditional Statements and Methods Practice 1" onclick="currentImage(this.src)" src="img/methods.png" style="width:50px;height:50px;">
+          <img alt="Conditional Statements and Methods Practice 2" onclick="currentImage(this.src)" src="img/statements_2.png" style="width:50px;height:50px;">
+          <img alt="Conditional Statements and Methods Practice 3" onclick="currentImage(this.src)" src="img/statements_3.png" style="width:50px;height:50px;">
+          <img alt="Use of Loops Practice 1" onclick="currentImage(this.src)" src="img/loops.png" style="width:50px;height:50px;">
+          <img alt="Use of Loops Practice 2" onclick="currentImage(this.src)" src="img/loops_2.png" style="width:50px;height:50px;">
+          <img alt="Array Properties and Use Practice 1" onclick="currentImage(this.src)" src="img/arrays.png" style="width:50px;height:50px;">
+          <img alt="Array Properties and Use Practice 2" onclick="currentImage(this.src)" src="img/arrays_2.png" style="width:50px;height:50px;">
+          <img alt="Nested Loops Practice" onclick="currentImage(this.src)" src="img/nested_loops.png" style="width:50px;height:50px;">
+          <img alt="Two Dimensional Array Properties and Practice" onclick="currentImage(this.src)" src="img/2d_arrays.png" style="width:50px;height:50px;">
+          <img alt="Final Project Introduction and Rules 1" onclick="currentImage(this.src)" src="img/final_project_1.png" style="width:50px;height:50px;">
+          <img alt="Final Project Introduction and Rules 2" onclick="currentImage(this.src)" src="img/final_project_2.png" style="width:50px;height:50px;">
+          <img alt="Final Project Introduction and Rules 3" onclick="currentImage(this.src)" src="img/final_project_3.png" style="width:50px;height:50px;">
+          <img alt="Final Project Introduction and Rules 4" onclick="currentImage(this.src)" src="img/final_project_4.png" style="width:50px;height:50px;">
         </div>
         <div id="popout">
           <span id="close-popout">X</span>
-          <img src="" class="popout-image" id="variable-image"></img>
+          <img id="variable-image" class="popout-image" src="img/intro_problems.png" alt="A Modal Popout for Selected Image" style="width:40%;height:80%;">
         </div>
       </section>
-      <section id="projects"  class="fade-in">
+      <section id="projects">
         <h2>Projects</h2>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -94,26 +96,19 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="img/task-list-app-screenshot.PNG" alt="First slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Task List App</h5>
-                <p>A task list app created with Python using the Python GUI package Tkinter.</p>
-              </div>
+              <img class="d-block w-100" src="img/task-list-app-screenshot.png" alt="First slide" style="width:400px!important;height:220px;">
             </div>
-            <!--<div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Second slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-              </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h4>Task List App</h4>
+              <p>A task list app created with Python using the Python GUI package Tkinter. Once opened, the application will display:</p>
+              <ul>
+                <li>A selection list housing to-do list items.</li>
+                <li>An “Add Task” button to add a task to the list.</li>
+                <li>A “Remove Task” button which deletes the selected task from the list.</li>
+                <li>An input box for the user to type the task they want to add to the list.</li>
+              </ul>
+              <p>The actions of adding and removing tasks are automatically updated and stored in a text file locally so the user can save their information (tasks).</p>
             </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="..." alt="Third slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-              </div>
-            </div>-->
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -125,26 +120,23 @@
           </a>
         </div>
       </section>
+      <footer>
+        <section id="contact-information">
+          <h2>Contact Information</h2>
+          <i class="fas fa-envelope-square"></i>
+          <a href="mailto:rafelsalem.rs@gmail.com">Email</a>
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/kfxe6/">GitHub</a>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <a href="https://www.linkedin.com/in/rafelsalem/">LinkedIn</a>
+        </section>
+        <span>Copyright@ 2020</span>
+      </footer>
     </div>
+    <script src="js/image_modal.js"></script>
     <script src="https://kit.fontawesome.com/77b10d6e5f.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="js/image_modal.js"></script>
   </body>
-  <footer  class="fade-in">
-    <div id="wrapper">
-      <div id="footer">
-        <section id="contact-information">
-          <i class="fas fa-envelope-square"></i>
-          <a href="mailto:RafelSalem.RS@Gmail.com">Email</a>
-          <i class="fab fa-github"></i>
-          <a href="https://github.com/kFxE6/">GitHub</a>
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-          <a href="https://www.linkedin.com/in/RafelSalem/">LinkedIn</a>
-        </section>
-        <span>Copyright@ 2020</span>
-      </div>
-    </div>
-  </footer>
 </html>
